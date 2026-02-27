@@ -18,11 +18,12 @@ const Login = () => {
     borderRadius: '8px',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
     textAlign: 'center',
-    width: '300px',
+    width: '350px',
+    height: '500px',
   };
 
   const logoStyle = {
-    width: '150px',
+    width: '200px',
     marginBottom: '1rem',
   };
 
