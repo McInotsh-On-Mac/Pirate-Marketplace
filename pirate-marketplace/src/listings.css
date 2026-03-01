@@ -1,0 +1,125 @@
+.listings-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .toolbar-logo {
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .profile-button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .search-section {
+    width: 25%;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .listings-section {
+    width: 75%;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .listings-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .listing-card {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .listing-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .image-placeholder {
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #888;
+  }
+
+  .listing-card h3 {
+      margin-bottom: 5px;
+  }
+  
+  .listing-card p {
+    margin-bottom: 10px;
+  }
+  
+  .details-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .detailed-card-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .detailed-card-view {
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    width: 70%;
+    max-width: 800px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
