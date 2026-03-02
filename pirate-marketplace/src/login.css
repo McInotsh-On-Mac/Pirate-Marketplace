@@ -54,6 +54,17 @@
     font-size: 1rem;
     cursor: pointer;
   }
+
+  .login-button:disabled {
+    background-color: #7e93da;
+    cursor: wait;
+  }
+
+  .login-error {
+    color: #b22222;
+    font-size: 0.95rem;
+    margin: 0 0 1rem;
+  }
   
   .login-link-button {
     background: none;
